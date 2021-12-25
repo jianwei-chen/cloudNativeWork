@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	replay()
+	replace()
 }
 
-func replay() {
+func replace() {
 	oriString := [...]string{"i", "am", "stupid", "and", "work"}
 
 	for index, value := range oriString {
